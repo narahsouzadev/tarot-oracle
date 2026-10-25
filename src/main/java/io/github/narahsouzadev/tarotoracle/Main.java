@@ -19,6 +19,8 @@ public class Main {
             int cardResult = card + 1;
 
             System.out.println("The number of the chosen card is " + cardResult + " \uD83C\uDCCF");
+        } else {
+            System.out.println("Invalid option! ⚠");
         }
         scanner.close();
     }
