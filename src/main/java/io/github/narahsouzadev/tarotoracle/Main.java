@@ -15,7 +15,7 @@ public class Main {
         String input = scanner.nextLine();
 
         if (input.isEmpty()) {
-            int card = random.nextInt(21);
+            int card = random.nextInt(22);
             int cardResult = card + 1;
 
             System.out.println("The number of the chosen card is " + cardResult + " \uD83C\uDCCF");
